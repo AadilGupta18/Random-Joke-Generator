@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.red{
+    height: 45vw;
+    width: 45vw;
+    background-color: #FF4343;
+    filter: blur(100px);
+}
+.pink{
+    height: 45vw;
+    width: 45vw;
+    background-color: rgb(255, 0, 119);
+    position: absolute;
+    right: 0;
+    top: 0;
+    filter: blur(100px);
+}
+.green{
+    height: 45vw;
+    width: 45vw;
+    background-color: rgb(9, 255, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(100px);
+}
+.blue{
+    height: 45vw;
+    width: 45vw;
+    background-color: rgb(0, 255, 255);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    filter: blur(100px);
+}
+.yellow{
+    height: 45vw;
+    width: 45vw;
+    background-color: rgb(238, 255, 0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    filter: blur(100px);
+}
+
+.main{
+    background: rgba(255, 255, 255, .5);
+    /* filter:blur(1px); */
+    width: 50vw;
+    height: 30vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+}
+.main h1{
+    text-align: center;
+    padding-top: 14%;
+}
+
+#btn{
+    width: 10vw;
+    height: 3vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(25, 82, 253);
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.p-div{
+    text-align: center;
+    /* background-color: red; */
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-48%, -50%);
+    font-size: 1.4vw;
+}
+
+#next{
+    width: 10vw;
+    height: 3vw;
+    position: absolute;
+    bottom: 10%;
+    right: 40%;
+    background-color: rgb(25, 82, 253);
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
